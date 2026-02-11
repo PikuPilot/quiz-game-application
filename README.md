@@ -1,2 +1,2 @@
 # quiz-game-application
-Quiz game for students to reset their knowledge with scores.
+Quiz game for students to test their knowledge with scores.
