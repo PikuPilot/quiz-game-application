@@ -39,17 +39,17 @@ class QuizGame {
         System.out.println(" Welcome to the Java Quiz Game!");
         System.out.println("--------------------------------");
 
-        // 🔥 Create list of question indexes
+        
         ArrayList<Integer> indexList = new ArrayList<>();
 
         for (int i = 0; i < questions.length; i++) {
             indexList.add(i);
         }
 
-        // 🔥 Shuffle questions
+        
         Collections.shuffle(indexList);
 
-        // 🔥 Loop using shuffled indexes
+        
         for (int index : indexList) {
 
             System.out.println("\n" + questions[index]);
